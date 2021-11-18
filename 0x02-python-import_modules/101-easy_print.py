@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-__import__("p")
+import python_is_cool
