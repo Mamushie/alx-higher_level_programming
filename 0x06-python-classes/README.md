@@ -18,4 +18,4 @@
 - How to bind attributes to object and classes
 - What is the __dict__ of a class and/or instance of a class and what does it contain
 - How does Python find the attributes of an object or class
-- How to use the ``getattr function
+- How to use the ``getattr`` function
