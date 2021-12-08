@@ -20,6 +20,7 @@ class Square:
     def __init__(self, size=0, position=(0, 0)):
         """Initializes square"""
         self.size = size
+        self.position = position
 
     @property
     def size(self):
@@ -40,7 +41,7 @@ class Square:
         else:
             self.__size = value
             
-           @property
+    @property
     def position(self):
         """"Gets the position"""
         return self.__position
