@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Add all arguments to a Python list and save them to a file."""
+""" Program that adds all arguments to a Python list,
+and then save them to a file """
 import sys
 import os
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
@@ -17,3 +18,4 @@ if __name__ == "__main__":
     for i in range(1, len(sys.argv)):
         my_list.append(sys.argv[i])
     save_to_json_file(my_list, data)
+    
